@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -11,8 +12,12 @@ h1 {
 }
 
 section {
+
+    margin-bottom: 100px;
+}
+
+.flex-container {
     display: flex;
-    padding-left: 20px;
 }
 
 .half-width {
@@ -30,4 +35,41 @@ section {
     font-weight: 600;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-item {
+    width: 50%;
+    margin: 0px 50px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.exp-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullsd {
+    border-left: 10px solid tomato;
+}
+
+#baby {
+    border-left: 10px solid blue;
+}
+
+footer {
+    text-align: center;
 }
