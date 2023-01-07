@@ -9,10 +9,21 @@ nav li a {
     color: black;
 }
 
-nav ul {
+nav>ul {
     display: flex;
 }
 
 nav li:hover {
     background-color: lightblue;
+}
+
+.dropdown {
+    display: none;
+    background-color: blueviolet;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+    position: absolute;
+
 }
