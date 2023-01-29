@@ -131,16 +131,31 @@ hr {
         width: 100%;
     }
 
-    .players {
+    .players,
+    .blogs,
+    .courses {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .player {
+    .player,
+    .blog {
         flex-direction: column;
     }
+}
 
-    .blogs,
-    .courses {
-        display: none;
+/* tabletdevics */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .container {
+        width: 100%;
     }
+
+    .players,
+    .courses {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 }
